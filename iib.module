@@ -146,3 +146,26 @@ function iib_permission() {
     ),
   );
 }
+
+/**
+ * Implements hook_hook_info()
+ *
+ * @return array
+ */
+function iib_hook_info() {
+  $hooks = array();
+  $group = 'iib';
+  $iib_hooks = array(
+    'iib_page_item',
+    'iib_entity_item',
+    'iib_page_item_alter',
+    'iib_entity_item_alter',
+  );
+
+  foreach ($iib_hooks as $iib_hook) {
+    $hooks[$iib_hook] = array(
+      'group' => $group,
+    );
+  }
+  return $hooks;
+}
