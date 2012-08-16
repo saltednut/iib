@@ -6,3 +6,4 @@ package = "SPS"
 files[] = tests/*.test
 
 stylesheets[all][] = css/iib.css
+scripts[] = js/iib.js
