@@ -1,6 +1,6 @@
 /**
  * @file
- * Styling for Language Switch.
+ * Styling for IIB.
  */
 
 #navbar-administration .navbar-tab-iib .iib-options {
@@ -110,11 +110,15 @@
 }
 #navbar-administration .navbar-tab-iib:hover .iib-trigger:after,
 #navbar-administration .navbar-tab-iib .iib-trigger.active:after,
-#navbar-administration .navbar-tab-iib:hover .iib-trigger.active:after {
+#navbar-administration .navbar-tab-iib:hover .iib-trigger.active:after,
+#navbar-administration .navbar-tab-iib.sps-active .iib-trigger:after {
   color: white;
 }
 #navbar-administration .navbar-tab-iib.open:hover .iib-trigger:after {
   color: black;
 }
-
-.iib #edit-preview {margin-top:25px;}
+#navbar-administration .navbar-tab-iib.sps-active,
+#navbar-administration .navbar-tab-iib.sps-active:hover {
+  background-image: -webkit-linear-gradient(top, rgb(78,159,234) 0%, rgb(69,132,221) 100%);
+  background-image: linear-gradient(rgb(78,159,234) 0%,rgb(69,132,221) 100%);
+}

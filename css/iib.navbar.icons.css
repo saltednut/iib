@@ -1,6 +1,6 @@
 /**
  * @file
- * Language Switch icon styling.
+ * IIB icon styling.
  */
 .navbar-tab-iib .iib-icon:before,
 .iib .iib-icon:before {
@@ -36,9 +36,11 @@
 }
 .navbar-tab-iib.open .iib-icon-iib:before,
 .navbar-tab-iib .iib-icon-iib.active:before,
-.navbar-tab-iib .iib-icon-iib:hover:before {
+.navbar-tab-iib .iib-icon-iib:hover:before,
+.navbar-tab-iib.sps-active .iib-icon-iib:before {
   background-position: -0.3em 0em;
 }
+
 .drupal-navbar .navbar-bar .navbar-tab-iib .iib-icon-iib:before {
   left: 0em; /* LTR */
   height: 22px;

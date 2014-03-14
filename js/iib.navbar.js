@@ -17,6 +17,8 @@ Drupal.behaviors.interactiveInfoBar = {
           tabModel: tabModel,
         });
       }
+      var spsActive = $('.page-iib #edit-cancel').length;
+      $tab.toggleClass('sps-active', Boolean(spsActive));
     }
   }
 };

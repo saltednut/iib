@@ -1,44 +1,7 @@
 /**
  * @file
- * Styling for the Language Switch tab.
+ * Styling for the IIB tab.
  */
-
-.iib {
-  background: #fff;
-  font-family: "Source Sans Pro", "Lucida Grande", Verdana, sans-serif
-}
-
-.iib input.form-submit {
-  margin-bottom: 0.4em;
-}
-
-.entity-iib {
-  font-size: 0.8em;
-  padding: 0.4em;
-}
-
-.iib-active {
-  display: block;
-}
-
-.iib-trigger {
-  cursor: pointer;
-}
-
-#toolbar a#iib-toolbar-link {
-  padding: 0px 5px;
-  line-height: 24px;
-  margin: 5px 15px;
-  border: 0;
-  float:right;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
-
-#toolbar a#iib-toolbar-link:hover {
-  background: #555;
-}
 
 #toolbar a#iib-toolbar-link.active {
   background: #000;

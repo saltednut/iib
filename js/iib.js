@@ -23,13 +23,6 @@
           $('.iib-trigger').removeClass('active');
           $('.page-iib', context).removeClass('iib-active');
         });
-        // IIB check for active SPS.
-        if ($('.page-iib #edit-cancel')[0]) {
-          $('#iib-navbar-tab').addClass('sps-active');
-        }
-        else {
-          $('#iib-navbar-tab').removeClass('sps-active');
-        }
       }
     };
 })(jQuery);
