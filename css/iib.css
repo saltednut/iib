@@ -1,25 +1,49 @@
 .iib {
-  background: #efefef;
+  background: #fff;
+  font-family: "Source Sans Pro", "Lucida Grande", Verdana, sans-serif
 }
 
-.iib-hidden {
+.iib input.form-submit {
+  margin-bottom: 0.4em;
+}
+
+.entity-iib {
+  font-size: 0.8em;
+  padding: 0.4em;
+}
+
+.page-iib {
+  z-index: 1300;
   display: none;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3333);
+  position: fixed;
+  width: 100%;
+}
+
+.iib-active {
+  display: block;
+}
+
+.iib-trigger {
+  cursor: pointer;
 }
 
 #toolbar a#iib-toolbar-link {
-  padding: 5px 0 2px;
-  height: 28px;
+  padding: 0px 5px;
   line-height: 24px;
-  margin: 0 15px 0 15px;
+  margin: 5px 15px;
   border: 0;
   float:right;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
-#toolbar #iib-toolbar-link:hover {
+#toolbar a#iib-toolbar-link:hover {
   background: #555;
-  text-decoration: none;
 }
 
-#toolbar a.active {
+#toolbar a#iib-toolbar-link.active {
   background: #000;
 }
+
