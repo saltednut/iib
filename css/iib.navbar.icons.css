@@ -50,38 +50,9 @@
   left: auto;
   right: 6px;
 }
-#navbar-administration .navbar-tab-iib.navbar-tab .iib-options .language-link.iib-icon-active {
-  padding: 0.5em 1.3333em;
-  text-indent: 0;
-  -moz-transition: padding 0.25s;
-  -webkit-transition: padding 0.25s;
-  transition: padding 0.25s;
-}
-#navbar-administration .navbar-tab-iib.navbar-tab .iib-options .language-link.iib-icon-active.active {
-  padding-left: 2.25em; /* LTR */
-}
-[dir="rtl"] #navbar-administration .navbar-tab-iib.navbar-tab .iib-options .language-link.iib-icon-active.active {
-  padding-left: 1.333em;
-  padding-right: 2.25em;
-}
-.drupal-navbar .navbar-tab-iib.navbar-tab .iib-options .language-link.iib-icon-active:before {
-  background-position: -999px -999px;
-  height: 14px;
-  left: 0.667em; /* LTR */
-  top: 0.5em;
-  width: 29px;
-}
-[dir="rtl"] .drupal-navbar .navbar-tab-iib.navbar-tab .iib-options .language-link.iib-icon-active:before {
-  left: auto;
-  right: 0.667em;
-}
-.drupal-navbar .navbar-tab-iib.navbar-tab .iib-options .language-link.iib-icon-active.active:before {
-  background-position: center -116px;
-}
-
 
 /**
- * Language Switch controls icons.
+ * controls icons.
  */
 .iib-control.iib-icon:before {
   height: 12px;
