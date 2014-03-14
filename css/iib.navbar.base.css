@@ -23,7 +23,7 @@
 }
 #navbar-administration .navbar-tab-iib .item-list {
   display: none;
-  width: 20em;
+  width: 16em;
   padding: 0;
   position: absolute;
   white-space: nowrap;
@@ -33,9 +33,10 @@
 #navbar-administration .navbar-tab-iib.open .item-list {
   display: block;
 }
-#navbar-administration .navbar-tab-iib.navbar-tab .iib-options li {
-  display: block;
-  float: none;
-  position: relative;
+#navbar-administration .navbar-tab-iib .form-type-select {
+  padding: 0em 1em 1em 1em;
+  line-height: 2em;
 }
-
+#navbar-administration .navbar-tab-iib .messages.error {
+  display: none;
+}
