@@ -15,9 +15,10 @@
 .page-iib {
   z-index: 1300;
   display: none;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3333);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3333);
   position: fixed;
   width: 100%;
+  background-color: #E6E6E6;
 }
 
 .iib-active {
@@ -44,6 +45,15 @@
 }
 
 #toolbar a#iib-toolbar-link.active {
-  background: #000;
+  background: #E6E6E6;
+  color: #555;
+  padding: 0px 5px 6px 5px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
 }
 
+#toolbar a#iib-toolbar-link.sps-active,
+.page-iib.sps-active {
+  background: #FFF;
+  color: #555;
+}
